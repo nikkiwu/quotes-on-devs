@@ -13,17 +13,17 @@ textarea {
   line-height: $font__line-height-body;
 }
 
-/* Headings */
-
 h1, h2, h3, h4, h5, h6 {
   clear: both;
 }
 
-/* Copy */
+h1 {
+  font-size: 2rem;
+  margin: .5rem 0;
+}
 
 p {
   margin-bottom: $base__space-unit;
-  font-family: Exo-Light, sans-serif;
 }
 
 dfn, cite, em, i {
@@ -68,12 +68,55 @@ big {
   font-size: 125%;
 }
 
-
-.entry-content p{
-  font-size: 2.5rem;
+.archive .entry-content p,
+.blog .entry-content p,
+.single .entry-content p {
+  font-size: 1.25rem;
+  font-weight: 300;
+  text-align: left;
+  @include tablet {
+    font-size: 1.75rem;
+  }
+  @include desktop {
+    font-size: 2.5rem;
+  }
 }
 
-.entry-meta h2{
-  font-size: 1rem;
-  font-family: Exo-Light, sans-serif;
+.page .entry-content,
+.error404 .page-content,
+.search .entry-summary,
+#quote-submission-form label {
+  font-weight: 300;
+}
+
+.archive .entry-title,
+.blog .entry-title,
+.single .entry-title {
+  font-weight: 300;
+  font-size: 1.25rem;
+  display: inline;
+}
+
+.archive .source,
+.blog .source,
+.single .source {
+  font-weight: 300;
+  font-size: 1.25rem;
+  font-style: italic;
+}
+
+.post-archives ul,
+.category-archives ul,
+.tags-archives ul {
+  font-weight: 300;
+  @include tablet {
+    font-size: 1.25rem;
+    .tag-cloud-link {
+      font-size: 1.25rem !important;
+    }
+  }
+}
+
+.quote-submission-wrapper p {
+  font-weight: 300;
 }

@@ -4,7 +4,6 @@
  *
  * @package QOD_Starter_Theme
  */
-
 get_header(); ?>
 
 <div id="primary" class="content-area">
@@ -14,7 +13,7 @@ get_header(); ?>
 
             <?php get_template_part('template-parts/content', 'page'); ?>
 
-        <?php endwhile; // End of the loop. ?>
+        <?php endwhile; ?>
 
     </main><!-- #main -->
 </div><!-- #primary -->
