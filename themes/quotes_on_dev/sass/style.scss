@@ -56,3 +56,16 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 @import "header";
 @import "footer";
 
+.fa-quote-right, .fa-quote-left {
+ font-size: 7rem;
+  color: $color__brand-main;
+  padding: 0 50px 0 50px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row;
+}
+

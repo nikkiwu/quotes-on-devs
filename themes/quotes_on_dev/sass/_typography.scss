@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   margin-bottom: $base__space-unit;
-  font-family: Exo-Medium, sans-serif;
+  font-family: Exo-Light, sans-serif;
 }
 
 dfn, cite, em, i {
@@ -66,4 +66,14 @@ mark, ins {
 
 big {
   font-size: 125%;
+}
+
+
+.entry-content p{
+  font-size: 2.5rem;
+}
+
+.entry-meta h2{
+  font-size: 1rem;
+  font-family: Exo-Light, sans-serif;
 }

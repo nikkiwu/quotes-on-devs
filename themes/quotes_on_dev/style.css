@@ -280,7 +280,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Copy */
 p {
   margin-bottom: 1.5rem;
-  font-family: Exo-Medium, sans-serif; }
+  font-family: Exo-Light, sans-serif; }
 
 dfn, cite, em, i {
   font-style: italic; }
@@ -315,6 +315,13 @@ mark, ins {
 
 big {
   font-size: 125%; }
+
+.entry-content p {
+  font-size: 2.5rem; }
+
+.entry-meta h2 {
+  font-size: 1rem;
+  font-family: Exo-Light, sans-serif; }
 
 /*--------------------------------------------------------------
 # Elements
@@ -526,9 +533,6 @@ a {
 .sticky {
   display: block; }
 
-.hentry {
-  margin: 0 0 1.5rem; }
-
 .updated:not(.published) {
   display: none; }
 
@@ -544,6 +548,21 @@ a {
 .page-links {
   clear: both;
   margin: 0 0 1.5rem; }
+
+.entry-meta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap; }
 
 /*--------------------------------------------------------------
 # Media
@@ -661,3 +680,23 @@ object {
     @media (min-width: 620px) {
       .site-footer .site-info p {
         padding-left: 1rem; } }
+
+.fa-quote-right, .fa-quote-left {
+  font-size: 7rem;
+  color: #00cc00;
+  padding: 0 50px 0 50px; }
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row; }
