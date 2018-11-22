@@ -53,6 +53,9 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 /* Center block */
 /* Tablet Screen */
 /* Desktop Screen */
+/*--------------------------------------------------------------
+# Normalize CSS Reset
+--------------------------------------------------------------*/
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
@@ -524,6 +527,10 @@ fieldset {
 .search-form input {
   width: 250px; }
 
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
+/* Hyperlink */
 a {
   color: #00cc00;
   text-decoration: none; }
@@ -543,7 +550,6 @@ a {
 /*--------------------------------------------------------------
 # Accessibility
 --------------------------------------------------------------*/
-/* Text meant only for screen readers. */
 .screen-reader-text {
   clip: rect(1px, 1px, 1px, 1px);
   position: absolute !important;
@@ -596,12 +602,6 @@ a {
   clear: both;
   content: "";
   display: table; }
-
-#page {
-  margin: 0 auto;
-  max-width: 1080px;
-  padding: 2.5%;
-  width: 100%; }
 
 /*--------------------------------------------------------------
 # Content
@@ -687,7 +687,6 @@ a {
   margin-top: 0;
   padding: 0; }
 
-/* Make sure embeds and iframes fit their containers. */
 embed,
 iframe,
 object {
@@ -737,10 +736,28 @@ object {
   #quote-submission-form div textarea {
     margin-bottom: 2rem; }
   #quote-submission-form div input {
-    max-width: 380px; }
+    max-width: 250px; }
+    @media (min-width: 1080px) {
+      #quote-submission-form div input {
+        max-width: 420px; } }
 
+#page {
+  padding: 2.5%; }
+  @media (min-width: 1080px) {
+    #page {
+      padding: 0 14rem; } }
+
+.quote-content {
+  max-width: 300px; }
+  @media (min-width: 1080px) {
+    .quote-content {
+      max-width: 100%; } }
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
 .site-header {
-  margin: 3rem 0 3rem 0; }
+  margin-top: 3rem; }
   .site-header .logo img {
     width: 300px; }
     @media (min-width: 620px) {
@@ -778,7 +795,7 @@ object {
     font-weight: 300; }
     .site-footer .site-info .footer-navigation ul li {
       display: inline;
-      padding: 0 1rem;
+      padding: 0 0.5rem;
       border-right: 1px solid white; }
       .site-footer .site-info .footer-navigation ul li:first-child {
         padding-left: 0; }

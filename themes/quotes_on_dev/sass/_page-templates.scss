@@ -46,6 +46,23 @@
     margin-bottom: 2rem;
   }
   input {
-    max-width: 380px;
+    max-width: 250px;
+    @include desktop {
+      max-width: 420px;
+    }
+  }
+}
+
+#page {
+  padding: 2.5%;
+  @include desktop{
+    padding: 0 14rem;
+  }
+}
+
+.quote-content {
+  max-width: 300px;
+  @include desktop {
+    max-width: 100%;
   }
 }
