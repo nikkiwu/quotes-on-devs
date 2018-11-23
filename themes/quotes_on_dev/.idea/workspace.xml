@@ -3,18 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="758eb07c-67ba-4e6a-889d-181959f58bfa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/style.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/custom.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/custom.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/maps/style.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/maps/style.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/custom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-submit.php" beforeDir="false" afterPath="$PROJECT_DIR$/page-submit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/_forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_forms.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/_navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_navigation.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_typography.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-parts/content-search.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/content-search.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -89,11 +78,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/custom.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="533">
-              <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
+              <caret line="85" selection-start-line="85" selection-end-line="85" />
             </state>
           </provider>
         </entry>
@@ -148,7 +137,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/template-parts/content-single.php">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -342,12 +331,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542742904113</updated>
-      <workItem from="1542742905487" duration="38909000" />
+      <workItem from="1542742905487" duration="39752000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38909000" />
+    <option name="totallyTimeSpent" value="39752000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -656,9 +645,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template-parts/content-single.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/style.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
@@ -683,9 +669,12 @@
     <entry file="file://$PROJECT_DIR$/js/custom.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="533">
-          <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-parts/content-single.php">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
