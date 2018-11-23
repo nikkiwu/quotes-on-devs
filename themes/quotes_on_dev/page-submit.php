@@ -29,7 +29,7 @@ get_header(); ?>
                     </div><!-- .quote-content -->
 
                     <div class="quote-source">
-                        <label for="quote-source">Where did you find this quote? (e.g book name)</label>
+                        <label for="quote-source">Where did you find this quote? (e.g website)</label>
                         <input type="text" name="quote_source" id="quote-source">
                     </div><!-- .quote-source -->
 

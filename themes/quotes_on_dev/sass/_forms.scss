@@ -77,3 +77,11 @@ fieldset {
 .search-form input {
   width: 250px;
 }
+
+.search-field {
+  &:focus {
+    border-color: darken(white, 8);
+    outline: none;
+
+  }
+}

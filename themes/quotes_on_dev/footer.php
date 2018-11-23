@@ -21,7 +21,7 @@
         );
         ?>
 
-        <p>Brought to you by &copy; <a href="https://github.com/nikkiwu">Nikki Wu</a> <?php echo date('Y'); ?></p>
+        <p>Created by &copy; <a href="https://github.com/nikkiwu">Nikki Wu</a> <?php echo date('Y'); ?></p>
 
     </div><!-- .site-info -->
 </footer><!-- #colophon -->

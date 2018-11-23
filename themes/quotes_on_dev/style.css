@@ -374,6 +374,9 @@ big {
 .quote-submission-wrapper p {
   font-weight: 300; }
 
+#main {
+  font-family: Exo-Light, sans-serif; }
+
 /*--------------------------------------------------------------
 # Elements
 --------------------------------------------------------------*/
@@ -527,6 +530,10 @@ fieldset {
 .search-form input {
   width: 250px; }
 
+.search-field:focus {
+  border-color: #ebebeb;
+  outline: none; }
+
 /*--------------------------------------------------------------
 # Navigation
 --------------------------------------------------------------*/
@@ -546,6 +553,9 @@ a {
     .number-pagination a:last-child,
     .number-pagination span:last-child {
       padding-right: 0; }
+
+.nav-links {
+  display: none; }
 
 /*--------------------------------------------------------------
 # Accessibility
@@ -809,24 +819,3 @@ object {
     @media (min-width: 620px) {
       .site-footer .site-info p {
         padding-left: 1rem; } }
-
-.fa-quote-right, .fa-quote-left {
-  font-size: 7rem;
-  color: #00cc00;
-  padding: 0 50px 0 50px; }
-
-.container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row;
-          flex-flow: row;
-  margin-bottom: 2rem; }
-
-#main {
-  font-family: Exo-Light, sans-serif; }
