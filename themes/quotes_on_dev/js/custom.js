@@ -45,7 +45,7 @@
         $('#submit').on('click', function (event) {
             event.preventDefault();
 
-            const title = $('#quote-author').val();
+            let title = $('#quote-author').val();
             const content = $('#quote-content').val();
             const source = $('#quote-source').val();
             const sourceURL = $('#quote-source-url').val();
@@ -58,7 +58,6 @@
                 status: 'publish',
             };
 
-
             $.ajax({
                 type: 'POST',
                 url: qod_vars.rest_url + 'wp/v2/posts',
@@ -69,6 +68,7 @@
                 },
 
                 success: function () {
+
                     console.log('success');
                     $('#quote-submission-form').slideUp(1500);
                     $('.quote-submission-wrapper').append('<p>' + qod_vars.success + '</p>');

@@ -47,6 +47,9 @@
   }
   input {
     max-width: 250px;
+    @include tablet{
+      max-width: 500px;
+    }
     @include desktop {
       max-width: 420px;
     }
