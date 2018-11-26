@@ -1,8 +1,10 @@
 ## Project 5 Quotes on Devs
 
-Recreation of a REDAcademy "Quotes on Devs_" website. This website will rotate through famous quotes from developers. You can submit a quote you have seen and watch it join the rotation! 
+Recreation of a REDAcademy "Quotes on Devs_" website. Quotes on devs allows the user to view quotes from other developers and also allows them to submit a quote! With this website users can enjoy some coding jokes and feel inspired to continue coding! 😁 
 
-<img src="screenshot/desktop.png"  width="900" height="600">
+## Screenshots
+
+<img src="screenshot/desktop.png"  width="1000" height="600">
 
 <img src="screenshot/tablet.png"  width="500" height="500">
 
@@ -30,4 +32,7 @@ Nikki Wu Cohort Fall 2018
 
 ## Personal Learning
 
-I was able to continue to practice my WordPress skills and AJAX / JSON APIs. 
+* I was able to continue to practice my WordPress skills and AJAX / JSON APIs. 
+* Continue to work on my CSS, HTML, JavaScript skills.
+* Format my code to be less DRY. 
+
