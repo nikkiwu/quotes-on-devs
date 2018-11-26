@@ -4,10 +4,13 @@ Recreation of a REDAcademy "Quotes on Devs_" website. Quotes on devs allows the 
 
 ## Screenshots
 
+# Desktop
 <img src="screenshot/desktop.png"  width="1200" height="600">
 
+# Tablet
 <img src="screenshot/tablet.png"  width="500" height="500">
 
+# Mobile
 <img src="screenshot/mobile.png"  width="300" height="500">
 
 
