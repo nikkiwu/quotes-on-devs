@@ -69,13 +69,11 @@
 
                 success: function () {
 
-                    console.log('success');
                     $('#quote-submission-form').slideUp(1500);
                     $('.quote-submission-wrapper').append('<p>' + qod_vars.success + '</p>');
                 },
 
                 error: function () {
-                    console.log('failure');
                     $('#quote-submission-form').slideUp(1500);
                     $('.quote-submission-wrapper').append('<p>' + qod_vars.failure + '</p>');
                 }
